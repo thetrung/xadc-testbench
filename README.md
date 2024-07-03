@@ -7,7 +7,8 @@ A nicer demo to guide you through the darkness of Xilinx FPGA journey, a fully-c
 - Once you see `design.txt` can't be found in TCL console during simulation, that mean you need to import it again from `.../mem_init_files/design.txt` with option `Copy sources into project` ticked.
 - The XADC itself have `Single Channel` & `Channel Sequencer` options, which let you pick a single channel or upto 16 channels.
 - But in this demo, I actually use that `channel-sequencer` to make the simulation look nicer: As per-channel-selected, it output different static data.
-
+  
+  ![alt text](https://github.com/thetrung/xadc-testbench/blob/master/XADC_TestBench.png)
 
 ### NAMING EXPLAINATION
 Most ports are useless in typical scenarios, so all you need to take care of, are the important ones like :
