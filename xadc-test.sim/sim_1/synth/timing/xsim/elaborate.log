@@ -1,0 +1,67 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/deulamco/Vivado_2024.1/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot XADC_TestBench_Sim_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.XADC_TestBench_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'di_in' [/home/deulamco/Documents/FPGAs/xadc-test/xadc-test.srcs/sim_1/new/XADC_TestBench_Sim.v:42]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "XADC_TestBench_Sim_time_synth.sdf", for root module "XADC_TestBench_Sim/xadc_tb".
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/channel_out_OBUF[0]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/channel_out_OBUF[1]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/channel_out_OBUF[2]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/channel_out_OBUF[3]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/channel_out_OBUF[4]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/daddr_in_IBUF[0]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/daddr_in_IBUF[1]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/daddr_in_IBUF[2]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/daddr_in_IBUF[3]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/daddr_in_IBUF[4]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/daddr_in_IBUF[5]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/daddr_in_IBUF[6]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[0]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[10]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[11]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[12]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[13]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[14]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[15]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[1]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[2]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[3]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[4]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[5]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[6]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[7]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[8]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/di_in_IBUF[9]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[0]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[10]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[11]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[12]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[13]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[14]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[15]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[1]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[2]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[3]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[4]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[5]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[6]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[7]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[8]_inst in the HDL hierarchy, annotation will be skipped.
+WARNING: [XSIM 43-3477] Unable to find hierarchical path /XADC_TestBench_Sim/xadc_tb/do_out_OBUF[9]_inst in the HDL hierarchy, annotation will be skipped.
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "XADC_TestBench_Sim_time_synth.sdf", for root module "XADC_TestBench_Sim/xadc_tb".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.XADC(INIT_41=16'b011000110101111...
+Compiling module xil_defaultlib.xadc_wiz_0
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUFT
+Compiling module xil_defaultlib.XADC_TestBench
+Compiling module xil_defaultlib.XADC_TestBench_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot XADC_TestBench_Sim_time_synth

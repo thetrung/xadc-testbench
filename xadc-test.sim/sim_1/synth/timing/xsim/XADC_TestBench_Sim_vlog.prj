@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"XADC_TestBench_Sim_time_synth.v" \
+"../../../../../xadc-test.srcs/sim_1/new/XADC_TestBench_Sim.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Jul  3 20:40:28 2024
+# Process ID: 1232212
+# Current directory: /home/deulamco/Documents/FPGAs/xadc-test/xadc-test.runs/synth_1
+# Command line: vivado -log XADC_TestBench.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source XADC_TestBench.tcl
+# Log file: /home/deulamco/Documents/FPGAs/xadc-test/xadc-test.runs/synth_1/XADC_TestBench.vds
+# Journal file: /home/deulamco/Documents/FPGAs/xadc-test/xadc-test.runs/synth_1/vivado.jou
+# Running On        :deulamco-4060M
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 24.04 LTS
+# Processor Detail  :AMD Ryzen 7 7840H with Radeon 780M Graphics
+# CPU Frequency     :400.000 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :32792 MB
+# Swap memory       :8589 MB
+# Total Virtual     :41382 MB
+# Available Virtual :27188 MB
+#-----------------------------------------------------------
+source XADC_TestBench.tcl -notrace

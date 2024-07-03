@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="XADC_TestBench_Sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="XADC_TestBench_Sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="746.001 ns"></ZoomEndTime>
+      <Cursor1Time time="13,998,630.334 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="array" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/daddr_in">
+      <obj_property name="ElementShortName">daddr_in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr_in[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/dclk_in">
+      <obj_property name="ElementShortName">dclk_in</obj_property>
+      <obj_property name="ObjectShortName">dclk_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/den_in">
+      <obj_property name="ElementShortName">den_in</obj_property>
+      <obj_property name="ObjectShortName">den_in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/di_in">
+      <obj_property name="ElementShortName">di_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">di_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/dwe_in">
+      <obj_property name="ElementShortName">dwe_in</obj_property>
+      <obj_property name="ObjectShortName">dwe_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/reset_in">
+      <obj_property name="ElementShortName">reset_in</obj_property>
+      <obj_property name="ObjectShortName">reset_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/vp_in">
+      <obj_property name="ElementShortName">vp_in</obj_property>
+      <obj_property name="ObjectShortName">vp_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/vn_in">
+      <obj_property name="ElementShortName">vn_in</obj_property>
+      <obj_property name="ObjectShortName">vn_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/busy_out">
+      <obj_property name="ElementShortName">busy_out</obj_property>
+      <obj_property name="ObjectShortName">busy_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/channel_out">
+      <obj_property name="ElementShortName">channel_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/do_out">
+      <obj_property name="ElementShortName">do_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">do_out[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/drdy_out">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/eoc_out">
+      <obj_property name="ElementShortName">eoc_out</obj_property>
+      <obj_property name="ObjectShortName">eoc_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/XADC_TestBench_Sim/xadc_tb/XADC_INST/eos_out">
+      <obj_property name="ElementShortName">eos_out</obj_property>
+      <obj_property name="ObjectShortName">eos_out</obj_property>
+   </wvobject>
+</wave_config>

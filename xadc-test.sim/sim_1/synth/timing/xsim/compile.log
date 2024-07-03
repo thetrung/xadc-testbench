@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/deulamco/Documents/FPGAs/xadc-test/xadc-test.sim/sim_1/synth/timing/xsim/XADC_TestBench_Sim_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XADC_TestBench
+INFO: [VRFC 10-311] analyzing module xadc_wiz_0
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/deulamco/Documents/FPGAs/xadc-test/xadc-test.srcs/sim_1/new/XADC_TestBench_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XADC_TestBench_Sim
